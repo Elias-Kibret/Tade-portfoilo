@@ -4,7 +4,7 @@ import Image from "next/image"
 import Logo from '../public/Img/Tadesse.jpg'
 const Header = () => {
   return (
-<header className=" bg-black font-semibold  px-12 py-6 text-gray-200">
+<header className=" bg-black font-semibold  px-12 py-4 text-gray-200">
    <div className="flex justify-between items-center">
       <div className="flex items-center space-x-4">
     <span className="text-xl">Tadesse G. Wakjira</span>

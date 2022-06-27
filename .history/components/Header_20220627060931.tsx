@@ -4,13 +4,16 @@ import Image from "next/image"
 import Logo from '../public/Img/Tadesse.jpg'
 const Header = () => {
   return (
-<header className=" bg-black font-semibold  px-12 py-6 text-gray-200">
+<header className="bg-teal-100 px-12 py-3 shadow border  border-b-gray-100">
    <div className="flex justify-between items-center">
       <div className="flex items-center space-x-4">
-    <span className="text-xl">Tadesse G. Wakjira</span>
+       
+       <Image className="rounded-full" src={Logo} alt="Taddes" width={55} height={55} />
+      
+        <span>Tadesse G. Wakjira</span>
       </div>
-      <div className="flex justify-between">
-        <nav className="flex list-none space-x-10  hidden md:inline-flex text-black-200">
+      <div className="mr-35">
+        <nav className="flex list-none space-x-6 font-bold hidden md:inline-flex">
             <li >
                 <Link href="">
                     <a> HOME</a>
@@ -31,15 +34,13 @@ const Header = () => {
                     <a> ABOUT</a>
                 </Link>
             </li>
-           
-        </nav>
-  
-      </div>
-      <div className="mr-32 bg-white text-black px-5 py-1  rounded-full">
-        <Link href=""  >
+            <li>
+                <Link href="">
                     <a> CONTACT</a>
                 </Link>
-        </div>
+            </li>
+        </nav>
+      </div>
     </div> 
 </header>
   )
