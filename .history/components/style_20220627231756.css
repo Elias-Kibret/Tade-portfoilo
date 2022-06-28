@@ -1,0 +1,5 @@
+.hero{
+    width:100%;
+    height: 400px;
+    background-image: url('../public/Img/MainHero.jpg');
+}

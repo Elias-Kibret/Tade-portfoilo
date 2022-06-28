@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero{
+    width:100%;
+   height: auto;
+    background-image: url('../public/Img/MainHero.jpg');
+}
