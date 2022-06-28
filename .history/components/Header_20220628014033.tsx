@@ -24,17 +24,17 @@ const Header = () => {
             </li>
             <li>
                 <Link href="">
-                    <a> What's New</a>
+                    <a> WHAT'S NEW</a>
                 </Link>
             </li>
             <li>
                 <Link href="">
-                    <a> Awards</a>
+                    <a> AWARDS</a>
                 </Link>
             </li>
             <li>
                 <Link href="">
-                    <a> Research</a>
+                    <a> RESEARCH</a>
                 </Link>
             </li>
            
@@ -43,7 +43,7 @@ const Header = () => {
       </div>
       <div className="mr-24 bg-white text-black px-5 py-1  rounded-full">
         <Link href=""  >
-                    <a> Contact</a>
+                    <a> CONTACT</a>
                 </Link>
         </div>
     </div> 

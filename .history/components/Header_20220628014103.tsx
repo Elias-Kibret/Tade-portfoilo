@@ -43,7 +43,7 @@ const Header = () => {
       </div>
       <div className="mr-24 bg-white text-black px-5 py-1  rounded-full">
         <Link href=""  >
-                    <a> Contact</a>
+                    <a> CONTACT</a>
                 </Link>
         </div>
     </div> 

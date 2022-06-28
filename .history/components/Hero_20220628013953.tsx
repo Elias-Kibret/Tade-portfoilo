@@ -5,12 +5,9 @@ const Hero = () => {
 <main  >
 <div className='hero h-auto'>
   
-<div className='text-gray-200 hero-cover font-bold   py-24 w-1/2 text-center text-4xl'>
-  <div>
+<div className='text-gray-2 hero-cover font-bold   mx-auto w-1/2 text-center text-4xl'>
   <h1>Welcome</h1>
   <h2 className='py-20'>TADESSE G.WAKJIRA , PH.D</h2>
-  </div>
-
 </div>
 </div>
 </main>
