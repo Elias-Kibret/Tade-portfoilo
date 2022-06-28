@@ -13,28 +13,28 @@ const Header = () => {
       <div className="flex justify-between">
         <nav className="flex list-none space-x-10  hidden md:inline-flex text-black-200">
             <li className="hover:shadow-inner transform hover:scale-110 hover:bg-opacity-50 transition ease-out duration-300">
-                <Link href="/">
-                    <a className="hover-state"> Home</a>
+                <Link href="">
+                    <a className="hover:shadow-inner transform hover:scale-110 hover:bg-opacity-50 transition ease-out duration-300"> Home</a>
                 </Link>
             </li>
             <li>
                 <Link href="">
-                    <a className="hover-state"> Publications <span></span></a>
+                    <a> Publications <span></span></a>
                 </Link>
             </li>
             <li>
                 <Link href="">
-                    <a className="hover-state"> What's New</a>
+                    <a> What's New</a>
                 </Link>
             </li>
             <li>
                 <Link href="">
-                    <a className="hover-state"> Awards</a>
+                    <a> Awards</a>
                 </Link>
             </li>
             <li>
                 <Link href="">
-                    <a className="hover-state"> Research</a>
+                    <a> Research</a>
                 </Link>
             </li>
            

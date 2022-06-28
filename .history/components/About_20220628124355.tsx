@@ -15,7 +15,7 @@ const About = () => {
         <Image  src={profileImage} className="object-cover" width={550} height={500} alt="Tadessa G.wakjira"/>
         {/* Social media Links */}
         <div className='space-x-6 flex justify-center mt-6'>
-            <Link href=""><a> <Image className="rounded-full transform hover:scale-110 transition ease-out duration-400" src={linkedin} width={40} height={40} alt="Linkedin"/></a></Link>
+            <Link href=""><a> <Image className="rounded-full transform hover:scale-125 transition ease-out duration-400" src={linkedin} width={40} height={40} alt="Linkedin"/></a></Link>
             <Link href=""><a><Image className='rounded-full transform hover:scale-110 transition ease-out duration-400' src={googleSchoolar} width={40} height={40} alt="Linkedin"/></a></Link>
             <Link href=""><a><Image className='rounded-full transform hover:scale-110 transition ease-out duration-400' src={researchGate} width={40} height={40} alt="Linkedin"/></a></Link>
             <Link href=""><a><Image className='rounded-full transform hover:scale-110 transition ease-out duration-400' src={orcid} width={40} height={40} alt="Linkedin"/></a></Link>
