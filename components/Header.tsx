@@ -1,10 +1,16 @@
 import Head from "next/head"
+import React from "react"
 import Link from "next/link"
 import Image from "next/image"
 import Logo from '../public/Img/Tadesse.png'
+import Publications from "./Publications"
+import { useState } from "react"
+
 const Header = () => {
+  const [show, setShow]=React.useState<boolean>(false)
+  console.log(show)
   return (
-<header className=" bg-black font-semibold  pl-32 py-5 text-gray-300  ">
+<header className=" bg-black font-semibold fixed top-0 left-0 right-0 z-1 pl-32 py-5 text-gray-300 border-b border-gray-500  ">
    <div className="flex justify-between items-center">
       <div className="flex items-center space-x-4">
     <Image src={Logo}   className="rounded-full" width={50} height={50}/>
@@ -20,30 +26,32 @@ const Header = () => {
                 </Link>
             </li>
             <li>
-                <Link href="/" className="relative">
-                    <a className="flex items-center">
+                <Link href="/" className="relative"   >
+                    <div className="flex items-center " onMouseLeave={()=>setShow(false)} onMouseEnter={()=>{setShow(true)}}>
 
                     <a className="hover-state flex items-center"> 
+                    <span>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                      <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                      <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
-                    </svg>
-                    Publications <span></span></a>
-                        <div className="absolute hidden top-24 -mx-10 p-6 -mt-3 space-y-3 w-96 h-32 bg-black">
-                            <div className="text-gray-400 flex flex-col">
-                               <Link href=""><a>Journal Papers</a></Link>
-                               <Link href=""><a>Conferance Papers</a></Link>
-                               <Link href=""><a>Acadamic Theses</a></Link> 
-                            </div>
+                        <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                        <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+                      </svg>
+                    </span>
 
-                        </div>
-                    </a>
+                    Publications <span><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                    </svg></span></a>
+                    {
+                      show &&<Publications />
+                    }
+                    
+
+                    </div>
 
                 </Link>
             </li>
             <li>
-                <Link href="">
+                <Link href="/whats_new">
 
                     <a className="hover-state flex items-center"> 
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">

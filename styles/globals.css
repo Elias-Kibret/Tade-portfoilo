@@ -22,3 +22,10 @@ background: linear-gradient(90deg, rgba(60, 55, 112, 0.6) 0%, rgba(27, 27, 114, 
 .hover-state{
     @apply hover:shadow-inner transform hover:scale-110 hover:bg-opacity-50 transition ease-out duration-300;
 }
+.hero-image{
+    background-image: url('../public/Img/Tade.png');
+    height:650px;
+    width:500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
