@@ -8,8 +8,8 @@ type Props = {
   };
 const Layout = ({children}:Props) => {
   return (
-    <div className="">
-        <Header/>
+    <div className="relative">
+        <Header />
         {children}
         <Footer/>
     </div>

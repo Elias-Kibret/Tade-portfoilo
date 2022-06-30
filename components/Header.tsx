@@ -10,7 +10,7 @@ const Header = () => {
   const [show, setShow]=React.useState<boolean>(false)
   console.log(show)
   return (
-<header className=" bg-black font-semibold fixed top-0 left-0 right-0 z-1 pl-32 py-5 text-gray-300 border-b border-gray-500  ">
+<header className=" bg-black font-semibold sticky top-0 left-0 right-0 z-10  pl-32 py-5 text-gray-300 border-b border-gray-500  ">
    <div className="flex justify-between items-center">
       <div className="flex items-center space-x-4">
     <Image src={Logo}   className="rounded-full" width={50} height={50}/>
@@ -26,7 +26,7 @@ const Header = () => {
                 </Link>
             </li>
             <li>
-                <Link href="/" className="relative"   >
+                <Link href="/" className="relative"  z-1 >
                     <div className="flex items-center " onMouseLeave={()=>setShow(false)} onMouseEnter={()=>{setShow(true)}}>
 
                     <a className="hover-state flex items-center"> 
@@ -51,7 +51,7 @@ const Header = () => {
                 </Link>
             </li>
             <li>
-                <Link href="/whats_new">
+                <Link href="/news">
 
                     <a className="hover-state flex items-center"> 
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
