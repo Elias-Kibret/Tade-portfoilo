@@ -7,7 +7,7 @@ const news = () => {
   return (
     <div className='bg-teal-50 p-10  '>
 
-        <div className='w-9/12 mt-14 mx-auto bg-gray-100 border-4 rounded-sm border-gray-200 p-5 flex relative'>
+        <div className='w-9/12 mt-14 mx-auto bg-gray-300 border rounded-xl border-gray-700 p-10 flex relative drop-shadow-xl'>
         <div className='absolute top-8 right-2'>
              <span className="bg-yellow-400 px-4 py-2 rounded-full text-red border border-gray-400 top-2 right-1 font-semibold">New</span>
         </div>
@@ -47,7 +47,7 @@ const news = () => {
 
 
 
-         <div className='w-9/12 mt-14 mx-auto bg-gray-100 border-4 rounded-sm border-gray-200 p-5 flex relative'>
+         <div className='w-9/12 mt-14 mx-auto bg-gray-300 border rounded-xl border-gray-700 p-10 flex relative drop-shadow-xl'>
         <div className='absolute top-8 right-2'>
              <span className="bg-yellow-400 px-4 py-2 rounded-full text-red border border-gray-400 top-2 right-1 font-semibold">New</span>
         </div>
@@ -86,7 +86,7 @@ const news = () => {
 
 
 
-         <div className='w-9/12 mt-14 mx-auto bg-gray-100 border-4 rounded-sm border-gray-200 p-5 flex relative'>
+         <div className='w-9/12 mt-14 mx-auto bg-gray-300 border rounded-xl border-gray-700 p-10 flex relative drop-shadow-xl'>
         <div className='absolute top-8 right-2'>
              <span className="bg-yellow-400 px-4 py-2 rounded-full text-red border border-gray-400 top-2 right-1 font-semibold">New</span>
         </div>
@@ -124,7 +124,7 @@ const news = () => {
          </div>
 
 
-         <div className='w-9/12 mt-14 mx-auto bg-gray-100 border-4 rounded-sm border-gray-200 p-5 flex relative'>
+         <div className='w-9/12 mt-14 mx-auto bg-gray-300 border rounded-xl border-gray-700 p-10 flex relative drop-shadow-xl'>
         <div className='absolute top-8 right-2'>
              <span className="bg-yellow-400 px-4 py-2 rounded-full text-red border border-gray-400 top-2 right-1 font-semibold">New</span>
         </div>
