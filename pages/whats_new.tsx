@@ -2,7 +2,7 @@
 // import Data1 from '../public/Img/Data1.png'
 // import Data2 from '../public/Img/Data2.png'
 // import Image from 'next/image'
-// import Slider from 'react-slick'
+// 
 
 
 // const whats_new = () => {
