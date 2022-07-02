@@ -10,14 +10,14 @@ const Header = () => {
   const [show, setShow]=React.useState<boolean>(false)
   console.log(show)
   return (
-<header className=" bg-black font-semibold sticky top-0 left-0 right-0 z-10  pl-32 py-5 text-gray-300 border-b border-gray-500  ">
+<header className="bg-white font-semibold sticky top-0 left-0 right-0 z-10  pl-32 py-3 border-b border-gray-500 text-sm ">
    <div className="flex justify-between items-center">
       <div className="flex items-center space-x-4">
     <Image src={Logo}   className="rounded-full" width={50} height={50}/>
     <span>Tadesse G. Wakjira</span>
       </div>
       <div className="flex justify-between">
-        <nav className="flex list-none space-x-12  hidden md:inline-flex text-black-200">
+        <nav className="flex list-none space-x-12  hidden md:inline-flex text-sm">
             <li className="">
                 <Link href="/">
                     <a className="hover-state flex items-center space-x-2"><svg  xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -71,7 +71,7 @@ const Header = () => {
                 </Link>
             </li>
             <li>
-                <Link href="">
+                <Link href="/researchs">
                     <a className="hover-state flex items-center"> 
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />

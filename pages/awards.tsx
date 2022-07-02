@@ -26,7 +26,7 @@ const awards = () => {
   }
   return (
     <div>
-    <div className='bg-sky-900 h-aut0 w-full relative py-2'>
+    <div className='bg-sky-900  w-full relative py-2'>
          <div className=" w-9/12  absolute top-20 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-amber-300 mx-auto h-1">
              <h1 className="text-center mt-6 text-7xl font-extrabold text-amber-300 drop-shadow-2xl">A w a r d s</h1>
         
